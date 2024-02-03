@@ -4,7 +4,7 @@
   font-family: "Anton", sans-serif;
 }
 
-body.calc {
+body{
   margin: 10px;
   height: 100vh;
 }
@@ -15,6 +15,20 @@ body.calc {
   color: rgba(255, 255, 255, 0.867);
   margin: 0 0 50px 0;
 }
+
+
+@media(max-width:490px){
+  .heading{
+    font-size: 3rem;
+  }
+}
+
+@media(max-width:490px){
+  h2{
+    font-size: 1rem;
+  }
+}
+
 
 .convbox {
   display: flex;
